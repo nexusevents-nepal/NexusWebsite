@@ -55,7 +55,7 @@ export function ContactForm() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              placeholder="John Doe"
+              placeholder="Full Name"
               required
             />
           </div>
@@ -67,7 +67,7 @@ export function ContactForm() {
               type="email"
               value={formData.email}
               onChange={handleChange}
-              placeholder="john@example.com"
+              placeholder="example@example.com"
               required
             />
           </div>
@@ -96,7 +96,7 @@ export function ContactForm() {
             >
               <option value="">Select a service</option>
               <option value="event-planning">Event Planning</option>
-              <option value="broadcasting">Broadcasting Services</option>
+              <option value="Production">Production Services</option>
               <option value="web-development">Web Development</option>
               <option value="consultation">Consultation</option>
             </select>

@@ -4,7 +4,7 @@ import { ServiceDetails } from "@/components/sections/service-details"
 
 export const metadata: Metadata = {
   title: "Our Services | Nexus Event and IT Solutions",
-  description: "Discover our comprehensive services: Event Planning, Broadcasting, and Web Development solutions.",
+  description: "Discover our comprehensive services: Event Planning, Production, and Web Development solutions.",
 }
 
 export default function Services() {

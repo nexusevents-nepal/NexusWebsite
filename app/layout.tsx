@@ -17,10 +17,10 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Nexus Event and IT Solutions | Premium Event Planning & Broadcasting Services",
+  title: "Nexus Event and IT Solutions | Premium Event Planning & Production Services",
   description:
-    "Leading event planning and IT solutions company in Nepal. 60+ successful events, 70+ broadcasting projects, and cutting-edge web development services.",
-  keywords: "event planning Nepal, broadcasting services, web development, IT solutions, Makwanpur",
+    "Leading event planning and IT solutions company in Nepal. 60+ successful events, 70+ Production projects, and cutting-edge web development services.",
+  keywords: "event planning Nepal, Production services, web development, IT solutions, Makwanpur",
   authors: [{ name: "Nexus Event and IT Solutions" }],
   creator: "Nexus Event and IT Solutions",
   publisher: "Nexus Event and IT Solutions",
@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://nexus-events.com",
     title: "Nexus Event and IT Solutions",
-    description: "Premium Event Planning & Broadcasting Services in Nepal",
+    description: "Premium Event Planning & Production Services in Nepal",
     siteName: "Nexus Event and IT Solutions",
   },
   twitter: {
     card: "summary_large_image",
     title: "Nexus Event and IT Solutions",
-    description: "Premium Event Planning & Broadcasting Services in Nepal",
+    description: "Premium Event Planning & Production Services in Nepal",
   },
   robots: {
     index: true,

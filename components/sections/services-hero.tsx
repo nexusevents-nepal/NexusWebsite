@@ -16,7 +16,7 @@ export function ServicesHero() {
             Our <span className="text-gradient">Services</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We offer comprehensive solutions across three core areas: event planning, broadcasting services, and web
+            We offer comprehensive solutions across three core areas: event planning, Production services, and web
             development. Each service is delivered with precision, creativity, and attention to detail.
           </p>
         </motion.div>

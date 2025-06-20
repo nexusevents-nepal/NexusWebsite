@@ -71,7 +71,7 @@ export function CTA() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg text-white/80 max-w-2xl mx-auto mb-8"
             >
-              Whether you need event planning, broadcasting services, or web development, we're here to bring your
+              Whether you need event planning, Production services, or web development, we're here to bring your
               vision to life with creativity and precision.
             </motion.p>
 

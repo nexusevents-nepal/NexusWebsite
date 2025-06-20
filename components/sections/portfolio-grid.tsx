@@ -11,7 +11,7 @@ import Image from "next/image"
 const categories = [
   { id: "all", name: "All Projects", icon: null },
   { id: "events", name: "Events", icon: Calendar },
-  { id: "broadcasting", name: "Broadcasting", icon: Radio },
+  { id: "Production", name: "Production", icon: Radio },
   { id: "web", name: "Web Development", icon: Code },
 ]
 
@@ -28,7 +28,7 @@ const projects = [
   {
     id: 2,
     title: "Cultural Festival Live Stream",
-    category: "broadcasting",
+    category: "Production",
     description: "Multi-camera live streaming of Nepal's largest cultural festival, reaching 50K+ viewers.",
     image: "/placeholder.svg?height=400&width=600",
     tags: ["Live Stream", "Cultural", "Multi-Camera"],
@@ -54,9 +54,9 @@ const projects = [
   },
   {
     id: 5,
-    title: "Sports Event Broadcasting",
-    category: "broadcasting",
-    description: "Professional broadcasting of national sports championship with multiple camera angles.",
+    title: "Sports Event Production",
+    category: "Production",
+    description: "Professional Production of national sports championship with multiple camera angles.",
     image: "/placeholder.svg?height=400&width=600",
     tags: ["Sports", "Live", "Professional"],
     year: "2023",

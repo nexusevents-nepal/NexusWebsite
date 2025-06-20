@@ -18,9 +18,9 @@ const services = [
   },
   {
     icon: Radio,
-    title: "Broadcasting Services",
+    title: "Production Services",
     description:
-      "Professional live streaming and broadcasting solutions that connect your audience with crystal-clear quality.",
+      "Professional live streaming and Production solutions that connect your audience with crystal-clear quality.",
     features: ["Live Streaming", "Multi-Camera Setup", "Audio Engineering", "Post Production"],
     color: "from-purple-500 to-pink-500",
   },

@@ -17,8 +17,8 @@ const milestones = [
   },
   {
     year: "2022",
-    title: "Broadcasting Expansion",
-    description: "Launched professional broadcasting services with state-of-the-art equipment",
+    title: "Production Expansion",
+    description: "Launched professional Production services with state-of-the-art equipment",
   },
   {
     year: "2023",

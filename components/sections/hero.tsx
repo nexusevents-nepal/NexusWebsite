@@ -64,7 +64,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
             >
-              From unforgettable events to cutting-edge broadcasting and web development, we bring your vision to life
+              From unforgettable events to cutting-edge Production and web development, we bring your vision to life
               with precision and creativity.
             </motion.p>
 

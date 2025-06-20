@@ -18,7 +18,7 @@ export function AboutHero() {
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             We are a passionate team of creators, innovators, and problem-solvers dedicated to bringing exceptional
-            experiences to life through events, broadcasting, and digital solutions.
+            experiences to life through events, Production, and digital solutions.
           </p>
         </motion.div>
 

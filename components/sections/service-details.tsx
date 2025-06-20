@@ -25,9 +25,9 @@ const services = [
   },
   {
     icon: Radio,
-    title: "Broadcasting Services",
+    title: "Production Services",
     description:
-      "Professional live streaming and broadcasting solutions with cutting-edge technology and expert production.",
+      "Professional live streaming and Production solutions with cutting-edge technology and expert production.",
     features: [
       "Multi-camera live streaming setup",
       "Professional audio engineering",

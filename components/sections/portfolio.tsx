@@ -10,18 +10,18 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "Tech Conference 2024",
-    category: "Event Planning",
-    description: "A three-day technology conference featuring international speakers and cutting-edge innovations.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Corporate", "Technology", "International"],
+    title: "Gorkhali Cup",
+    category: "Production Partner",
+    description: "Nexus Event was proud to be a Production Partner for Gorkhali Cup, a FreeFire Esports tournament hosted by Tonde Nepal Esports, organisation under Tonde Gamer.",
+    image: "/gorkhalicup_production.jpg",
+    tags: ["Production", "Technology", "Production", "FreeFire"],
   },
   {
-    title: "Cultural Festival Live",
-    category: "Broadcasting",
-    description: "Multi-camera live streaming of Nepal's largest cultural festival, reaching 50K+ viewers.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Live Stream", "Cultural", "Multi-Camera"],
+    title: "Bagmati Esports Championship",
+    category: "Management",
+    description: "Bagmati Esports Championship was a high scale Esports tournament organised by Esports Association of Nepal (ESAN) where Nexus Event was proudly the Event Management Team.",
+    image: "/bagmati-esports-championship.jpeg",
+    tags: ["Esports", "Management", "Bagmati"],
   },
   {
     title: "E-commerce Platform",

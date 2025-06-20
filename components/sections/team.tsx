@@ -25,7 +25,7 @@ const team = [
     name: "Amit Kumar",
     role: "Technical Lead",
     image: "/placeholder.svg?height=300&width=300",
-    bio: "Full-stack developer and broadcasting technology expert",
+    bio: "Full-stack developer and Production technology expert",
     social: { linkedin: "#", twitter: "#" },
   },
   {
@@ -37,7 +37,7 @@ const team = [
   },
   {
     name: "David Chen",
-    role: "Broadcasting Specialist",
+    role: "Production Specialist",
     image: "/placeholder.svg?height=300&width=300",
     bio: "Professional broadcaster with expertise in live streaming",
     social: { linkedin: "#", twitter: "#" },

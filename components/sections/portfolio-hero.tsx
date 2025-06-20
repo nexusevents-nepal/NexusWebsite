@@ -16,7 +16,7 @@ export function PortfolioHero() {
             Our <span className="text-gradient">Portfolio</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Explore our successful projects across event planning, broadcasting, and web development. Each project
+            Explore our successful projects across event planning, Production, and web development. Each project
             represents our commitment to excellence and innovation.
           </p>
         </motion.div>

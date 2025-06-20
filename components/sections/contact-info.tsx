@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone Number",
-    details: ["+977 XXX-XXX-XXXX", "Mon-Fri 9AM-6PM"],
+    details: ["+977 XXX-XXX-XXXX", "Sun-Fri 9AM-6PM"],
   },
   {
     icon: Mail,
@@ -22,14 +22,14 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Business Hours",
-    details: ["Monday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM"],
+    details: ["Sunday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM"],
   },
 ]
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/nexuseventsolutions", label: "LinkedIn" },
   { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Instagram, href: "#", label: "Instagram" },
+  { icon: Instagram, href: "https://www.instagram.com/event.nexus/", label: "Instagram" },
 ]
 
 export function ContactInfo() {
@@ -90,13 +90,16 @@ export function ContactInfo() {
 
       {/* Map Placeholder */}
       <div className="pt-6">
-        <h3 className="font-semibold mb-4">Find Us</h3>
-        <div className="aspect-video rounded-lg bg-muted flex items-center justify-center">
-          <div className="text-center">
-            <MapPin className="h-8 w-8 mx-auto mb-2 text-muted-foreground" />
-            <p className="text-sm text-muted-foreground">Interactive map coming soon</p>
-          </div>
-        </div>
+          <h3 className="font-semibold mb-4">Find Us</h3>
+        <div className="aspect-video rounded-lg overflow-hidden">
+         <iframe
+            title="Google Map"
+            className="w-full h-full border-0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.021255674299!2d-122.41941548468024!3d37.77492977975953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b3b0f0c3f%3A0x2d7c2b9c7e6ff39d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1718217600000!5m2!1sen!2sus"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+       </div>
       </div>
     </motion.div>
   )

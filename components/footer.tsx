@@ -14,7 +14,7 @@ const navigation = {
   ],
   services: [
     { name: "Event Planning", href: "/services#events" },
-    { name: "Broadcasting", href: "/services#broadcasting" },
+    { name: "Production", href: "/services#Production" },
     { name: "Web Development", href: "/services#web" },
     { name: "Consulting", href: "/services#consulting" },
   ],
@@ -26,9 +26,9 @@ const navigation = {
 }
 
 const social = [
-  { name: "LinkedIn", href: "#", icon: Linkedin },
+  { name: "LinkedIn", href: "https://www.linkedin.com/company/nexuseventsolutions/", icon: Linkedin },
   { name: "Twitter", href: "#", icon: Twitter },
-  { name: "Instagram", href: "#", icon: Instagram },
+  { name: "Instagram", href: "https://www.instagram.com/event.nexus/", icon: Instagram },
 ]
 
 export function Footer() {
@@ -41,13 +41,13 @@ export function Footer() {
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center space-x-2 mb-6">
                 <div className="w-8 h-8 bg-gradient-to-r from-primary to-purple-500 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">N</span>
+                <img src="/nexus-event.png" alt="Logo" className="w-7 h-7 object-contain" />
                 </div>
                 <span className="font-space-grotesk font-bold text-xl">Nexus</span>
               </Link>
 
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Crafting digital experiences that inspire. From events to broadcasting and web development, we bring
+                Crafting digital experiences that inspire. From events to Production and web development, we bring
                 your vision to life.
               </p>
 

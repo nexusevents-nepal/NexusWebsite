@@ -15,7 +15,7 @@ const stats = [
   {
     icon: Radio,
     value: "70+",
-    label: "Broadcasting Projects",
+    label: "Production Projects",
     description: "Live events broadcasted flawlessly",
   },
   {
