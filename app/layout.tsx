@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nexus-events.com",
+    url: "https://nexusevent.com.np",
     title: "Nexus Event and IT Solutions",
     description: "Premium Event Planning & Production Services in Nepal",
     siteName: "Nexus Event and IT Solutions",
@@ -47,8 +47,7 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-    generator: 'v0.dev'
+  }
 }
 
 export default function RootLayout({
@@ -58,6 +57,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </head>
       <body className={`${inter.variable} ${spaceGrotesk.variable} font-sans antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <div className="relative min-h-screen bg-background">
