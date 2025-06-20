@@ -41,9 +41,7 @@ export function Navbar() {
       <nav className="section-padding py-4">
         <div className="container-width flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-9 bg-gradient-to-r from-primary to-purple-500 rounded-lg flex items-center justify-center">
-              <img src="/nexus-event.png" alt="Logo" className="w-7 h-7 object-contain" />
-            </div>
+              <img src="/nexus-no-text-logo.png" alt="Logo" className="w-10 h-10 object-contain" />
             <span className="font-space-grotesk font-bold text-xl">Nexus</span>
           </Link>
 

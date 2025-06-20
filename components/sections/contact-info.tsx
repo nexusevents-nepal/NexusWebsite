@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Address",
-    details: ["contact@nexusevent.com.np", "info@nexus-events.com"],
+    details: ["contact@nexusevent.com.np", "info@nexusevents.com.np"],
   },
   {
     icon: Clock,

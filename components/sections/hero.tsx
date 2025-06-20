@@ -94,7 +94,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator 
       <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
         animate={{ y: [0, 10, 0] }}
@@ -103,7 +103,7 @@ export function Hero() {
         <div className="w-6 h-10 border-2 border-muted-foreground/30 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-muted-foreground/50 rounded-full mt-2" />
         </div>
-      </motion.div>
+      </motion.div>*/}
     </section>
   )
 }

@@ -40,10 +40,8 @@ export function Footer() {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <Link href="/" className="flex items-center space-x-2 mb-6">
-                <div className="w-8 h-8 bg-gradient-to-r from-primary to-purple-500 rounded-lg flex items-center justify-center">
-                <img src="/nexus-event.png" alt="Logo" className="w-7 h-7 object-contain" />
-                </div>
-                <span className="font-space-grotesk font-bold text-xl">Nexus</span>
+                <img src="/nexus-no-text-logo.png" alt="Logo" className="w-7 h-7 object-contain" />
+                <span className="font-space-grotesk font-bold text-xl">Nexus Events and IT Solutions</span>
               </Link>
 
               <p className="text-muted-foreground mb-6 leading-relaxed">

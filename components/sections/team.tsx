@@ -137,7 +137,7 @@ export function Team() {
           className="text-center my-16"
         >
           <h2 className="text-3xl md:text-4xl font-space-grotesk font-bold mb-4">
-            <span className="text-gradient">Nexus Members</span>
+          Nexus <span className="text-gradient"> Members</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             The passionate team members driving day-to-day success
