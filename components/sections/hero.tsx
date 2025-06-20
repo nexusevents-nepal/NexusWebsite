@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion"
 import { ArrowRight, Play } from "lucide-react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -76,14 +78,16 @@ export function Hero() {
             >
               <Button asChild size="lg" className="group">
                 <Link href="/contact">
-                  Start Your Project
+                  Contact Us
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
 
               <Button variant="outline" size="lg" className="group bg-background/50 backdrop-blur-sm">
-                <Play className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
-                Watch Our Story
+              <Link href="https://wa.me/9779767494370">
+                <FontAwesomeIcon icon={faWhatsapp} className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
+              Contact Us on WhatsApp
+              </Link>
               </Button>
             </motion.div>
 

@@ -12,7 +12,7 @@ export default function About() {
   return (
     <>
       <AboutHero />
-      <Timeline />
+      {/* <Timeline /> */}
       <Team />
     </>
   )
