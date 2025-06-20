@@ -17,8 +17,8 @@ export function AboutHero() {
             About <span className="text-gradient">Nexus</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We are a passionate team of creators, innovators, and problem-solvers dedicated to bringing exceptional
-            experiences to life through events, Production, and digital solutions.
+          Nexus Event & I.T. Solution Pvt. Ltd. is a dynamic event management and technology company based in Nepal, dedicated to delivering top-tier esports experiences, live event production, and digital solutions. Specializing in LAN tournaments, broadcasting, branding, and technical operations, we bring together innovation, creativity, 
+          and executional precision to power the future of competitive gaming and digital engagement.
           </p>
         </motion.div>
 
