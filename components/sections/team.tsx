@@ -18,9 +18,9 @@ const team = [
     },
   },
   {
-    name: "Priya Patel",
+    name: "Suhas Belbas",
     role: "Creative Director",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/suha.png",
     bio: "Award-winning designer specializing in event experiences",
     social: { linkedin: "#", twitter: "#" },
   },
