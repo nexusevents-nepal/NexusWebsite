@@ -84,7 +84,7 @@ export function Hero() {
               </Button>
 
               <Button variant="outline" size="lg" className="group bg-background/50 backdrop-blur-sm">
-              <Link href="https://wa.me/9779767494370">
+              <Link href="https://wa.me/9779767494370" rel="noopener noreferrer" target="_blank">
                 <FontAwesomeIcon icon={faWhatsapp} className="mr-2 h-4 w-4 transition-transform group-hover:scale-110" />
               Contact Us on WhatsApp
               </Link>
@@ -98,15 +98,15 @@ export function Hero() {
               className="grid grid-cols-3 gap-8 max-w-md mx-auto pt-8"
             >
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">60+</div>
+                <div className="text-2xl md:text-3xl font-bold text-gradient">6+</div>
                 <div className="text-sm text-muted-foreground">Events Planned</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">70+</div>
+                <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
                 <div className="text-sm text-muted-foreground">Broadcasts</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">6</div>
+                <div className="text-2xl md:text-3xl font-bold text-gradient">22</div>
                 <div className="text-sm text-muted-foreground">Team Members</div>
               </div>
             </motion.div>

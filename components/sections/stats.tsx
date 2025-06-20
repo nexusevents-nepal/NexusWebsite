@@ -8,25 +8,25 @@ import { Calendar, Radio, Code, Users } from "lucide-react"
 const stats = [
   {
     icon: Calendar,
-    value: "60+",
+    value: "6+",
     label: "Events Planned",
     description: "Successful events delivered with precision",
   },
   {
     icon: Radio,
-    value: "70+",
-    label: "Production Projects",
+    value: "50+",
+    label: "Broadcasting Projects",
     description: "Live events broadcasted flawlessly",
   },
   {
     icon: Code,
-    value: "100+",
+    value: "5+",
     label: "Websites Built",
     description: "Custom web solutions delivered",
   },
   {
     icon: Users,
-    value: "6",
+    value: "22",
     label: "Expert Team",
     description: "Dedicated professionals at your service",
   },
