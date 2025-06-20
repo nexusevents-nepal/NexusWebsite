@@ -7,22 +7,22 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Our Location",
-    details: ["Makwanpur, Nepal", "Central Development Region"],
+    details: ["Makwanpurgadhi-05, Makawanpur, Nepal, 44100", "Central Development Region"],
   },
   {
     icon: Phone,
     title: "Phone Number",
-    details: ["+977 XXX-XXX-XXXX", "Sun-Fri 9AM-6PM"],
+    details: ["+977-9767494370", "Mon-Fri 10AM-5PM"],
   },
   {
     icon: Mail,
     title: "Email Address",
-    details: ["hello@nexus-events.com", "info@nexus-events.com"],
+    details: ["contact@nexusevent.com.np", "info@nexus-events.com"],
   },
   {
     icon: Clock,
     title: "Business Hours",
-    details: ["Sunday - Friday: 9AM - 6PM", "Saturday: 10AM - 4PM"],
+    details: ["Monday - Friday: 10AM - 5PM", "Saturday - Sunday: Closed"],
   },
 ]
 

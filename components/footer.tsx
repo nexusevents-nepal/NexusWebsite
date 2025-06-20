@@ -58,11 +58,11 @@ export function Footer() {
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Mail className="h-4 w-4 mr-3 text-primary" />
-                  hello@nexus-events.com
+                  contact@nexusevent.com.np
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Phone className="h-4 w-4 mr-3 text-primary" />
-                  +977 XXX-XXX-XXXX
+                  +977 9767494370
                 </div>
               </div>
             </div>

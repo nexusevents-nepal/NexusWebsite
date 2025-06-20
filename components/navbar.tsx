@@ -31,7 +31,7 @@ export function Navbar() {
 
   return (
     <motion.header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-300 ${
         scrolled ? "glass-effect shadow-lg" : "bg-transparent"
       }`}
       initial={{ y: -100 }}
@@ -41,9 +41,9 @@ export function Navbar() {
       <nav className="section-padding py-4">
         <div className="container-width flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-          <div className="w-8 h-9 bg-gradient-to-r from-primary to-purple-500 rounded-lg flex items-center justify-center">
-            <img src="/nexus-event.png" alt="Logo" className="w-7 h-7 object-contain" />
-          </div>
+            <div className="w-8 h-9 bg-gradient-to-r from-primary to-purple-500 rounded-lg flex items-center justify-center">
+              <img src="/nexus-event.png" alt="Logo" className="w-7 h-7 object-contain" />
+            </div>
             <span className="font-space-grotesk font-bold text-xl">Nexus</span>
           </Link>
 
@@ -68,15 +68,20 @@ export function Navbar() {
             ))}
           </div>
 
+          {/* Right-side Buttons */}
           <div className="flex items-center space-x-4">
             <ThemeToggle />
             <Button asChild className="hidden md:inline-flex">
               <Link href="/contact">Get Started</Link>
             </Button>
 
-            {/* Mobile menu button */}
+            {/* Mobile Menu Toggle */}
             <Button variant="ghost" size="sm" className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-              {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {isOpen ? (
+                <X className="h-5 w-5 text-foreground" />
+              ) : (
+                <Menu className="h-5 w-5 text-foreground" />
+              )}
             </Button>
           </div>
         </div>
@@ -85,7 +90,7 @@ export function Navbar() {
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              className="md:hidden mt-4 glass-effect rounded-lg p-4"
+              className="md:hidden mt-4 glass-effect rounded-lg p-4 overflow-hidden"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}

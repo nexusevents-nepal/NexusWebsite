@@ -90,26 +90,6 @@ export function Hero() {
               </Link>
               </Button>
             </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              className="grid grid-cols-3 gap-8 max-w-md mx-auto pt-8"
-            >
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">6+</div>
-                <div className="text-sm text-muted-foreground">Events Planned</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">50+</div>
-                <div className="text-sm text-muted-foreground">Broadcasts</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl md:text-3xl font-bold text-gradient">22</div>
-                <div className="text-sm text-muted-foreground">Team Members</div>
-              </div>
-            </motion.div>
           </motion.div>
         </div>
       </div>
