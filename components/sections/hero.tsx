@@ -53,9 +53,9 @@ export function Hero() {
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-space-grotesk font-bold leading-tight">
-              <span className="block">Crafting Digital</span>
-              <span className="block text-gradient">Experiences</span>
-              <span className="block">That Inspire</span>
+              <span className="block">Powering Events,</span>
+              <span className="block text-gradient">Turning Plans</span>
+              <span className="block">Into Experiences</span>
             </h1>
 
             <motion.p
