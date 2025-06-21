@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",
+        "destination": "https://comingsoon.nexusevent.com.np/$1",
+        "permanent": true
+      }
+    ]
+  }
+  
