@@ -10,7 +10,7 @@ const team = [
   {
     name: "Sajwal Chaulagain",
     role: "CEO & Founder",
-    image: "/sajwal-chaulagain.jpg",
+    image: "/sajwal.png",
     bio: "Visionary leader with 10+ years in event management",
     social: {
       linkedin: "https://www.linkedin.com/in/desajwal/",
@@ -25,8 +25,8 @@ const team = [
     social: { linkedin: "#", twitter: "#" },
   },
   {
-    name: "Amit Kumar",
-    role: "Technical Lead",
+    name: "Gelchyang Lama",
+    role: "Indian Administrator",
     image: "/placeholder.svg?height=300&width=300",
     bio: "Full-stack developer and Production technology expert",
     social: { linkedin: "#", twitter: "#" },
