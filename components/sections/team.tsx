@@ -25,9 +25,9 @@ const team = [
     social: { linkedin: "#", twitter: "#" },
   },
   {
-    name: "Gelchyang Lama",
+    name: "Gyalchen Lama",
     role: "Indian Administrator",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/gyalchenlama.png",
     bio: "Full-stack developer and Production technology expert",
     social: { linkedin: "#", twitter: "#" },
   },
