@@ -12,7 +12,7 @@ const categories = [
   { id: "all", name: "All Projects", icon: null },
   { id: "events", name: "Events", icon: Calendar },
   { id: "Production", name: "Production", icon: Radio },
-  { id: "web", name: "Web Development", icon: Code },
+  /*{ id: "web", name: "Web Development", icon: Code },*/
 ]
 
 const projects = [
@@ -37,7 +37,7 @@ const projects = [
   {
     id: 3,
     title: "E-commerce Platform",
-    category: "web",
+    category: "Production",
     description: "Modern e-commerce solution with advanced features and seamless user experience.",
     image: "/placeholder.svg?height=400&width=600",
     tags: ["E-commerce", "React", "Modern"],
@@ -64,7 +64,7 @@ const projects = [
   {
     id: 6,
     title: "Restaurant Website",
-    category: "web",
+    category: "Production",
     description: "Beautiful restaurant website with online ordering and reservation system.",
     image: "/placeholder.svg?height=400&width=600",
     tags: ["Restaurant", "Booking", "Modern"],

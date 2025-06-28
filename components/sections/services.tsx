@@ -26,8 +26,8 @@ const services = [
   },
   {
     icon: Code,
-    title: "Web Development",
-    description: "Custom web solutions built with modern technologies, designed to elevate your digital presence.",
+    title: "Tailored IT Solution (Comming Soon)",
+    description: "Custom IT solutions built with modern technologies, designed to elevate your digital presence.",
     features: ["Custom Websites", "E-commerce", "Web Applications", "SEO Optimization"],
     color: "from-green-500 to-emerald-500",
   },

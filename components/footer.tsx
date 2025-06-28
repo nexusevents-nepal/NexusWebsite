@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, MapPin, Phone, Linkedin, Twitter, Instagram } from "lucide-react"
+import { Mail, MapPin, Phone, Linkedin, Instagram, Facebook } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
@@ -27,7 +27,7 @@ const navigation = {
 
 const social = [
   { name: "LinkedIn", href: "https://www.linkedin.com/company/nexuseventsolutions/", icon: Linkedin },
-  { name: "Twitter", href: "#", icon: Twitter },
+  { name: "Facebook", href: "#", icon: Facebook },
   { name: "Instagram", href: "https://www.instagram.com/event.nexus/", icon: Instagram },
 ]
 
@@ -52,7 +52,7 @@ export function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-sm text-muted-foreground">
                   <MapPin className="h-4 w-4 mr-3 text-primary" />
-                  Makwanpur, Nepal
+                  MakwanpurGadhi-05, Makwanpur, Nepal
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Mail className="h-4 w-4 mr-3 text-primary" />

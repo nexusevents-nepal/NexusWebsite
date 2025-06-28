@@ -7,6 +7,7 @@ import { ArrowRight, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel"
 
 const projects = [
   {
@@ -14,7 +15,7 @@ const projects = [
     category: "Production Partner",
     description: "Nexus Event was proud to be a Production Partner for Gorkhali Cup, a FreeFire Esports tournament hosted by Tonde Nepal Esports, organisation under Tonde Gamer.",
     image: "/gorkhalicup_production.jpg",
-    tags: ["Production", "Technology", "Production", "FreeFire"],
+    tags: ["Production", "Technology", "FreeFire"],
   },
   {
     title: "Bagmati Esports Championship",
@@ -32,6 +33,18 @@ const projects = [
   },
 ]
 
+const brandLogos = [
+  "/esan.png",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+  "/placeholder-logo.svg",
+]
+
 export function Portfolio() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
@@ -39,6 +52,32 @@ export function Portfolio() {
   return (
     <section ref={ref} className="section-padding py-20 bg-muted/30">
       <div className="container-width">
+        <h2 className="brand-title font-weight-bold h1 mb-5 text-3xl md:text-4xl font-space-grotesk font-bold text-center">
+          Brands We've Worked With
+        </h2>
+        <hr className="mx-auto w-24 border-primary mb-8" />
+
+        {/* ✅ Fixed Logo Carousel */}
+        <Carousel opts={{ align: "start", loop: true }}>
+          <CarouselContent className="-ml-4">
+            {brandLogos.map((src, index) => (
+              <CarouselItem
+                key={index}
+                className="pl-4 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5 flex items-center justify-center"
+              >
+                <img
+                  src={src}
+                  alt={`Brand Logo ${index + 1}`}
+                  className="w-32 h-16 object-contain"
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+        </Carousel>
+      </div>
+
+      {/* 🔽 Featured Projects Section */}
+      <div className="container-width mt-16">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -72,14 +111,12 @@ export function Portfolio() {
                     className="object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-
                   {/* Category badge */}
                   <div className="absolute top-4 left-4">
                     <span className="px-3 py-1 text-xs font-medium bg-primary text-white rounded-full">
                       {project.category}
                     </span>
                   </div>
-
                   {/* External link icon */}
                   <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
@@ -93,9 +130,7 @@ export function Portfolio() {
                   <h3 className="text-xl font-space-grotesk font-bold mb-2 group-hover:text-primary transition-colors">
                     {project.title}
                   </h3>
-
                   <p className="text-muted-foreground mb-4 text-sm leading-relaxed">{project.description}</p>
-
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag) => (
@@ -110,6 +145,7 @@ export function Portfolio() {
           ))}
         </div>
 
+        {/* View All Projects Button */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}

@@ -41,18 +41,18 @@ const services = [
   },
   {
     icon: Code,
-    title: "Web Development",
+    title: "Tailored IT Solution (Comming Soon)",
     description:
-      "Custom web solutions built with modern technologies, designed to elevate your digital presence and drive results.",
+      "Custom IT solutions built with modern technologies, designed to elevate your digital presence and drive results.",
     features: [
       "Responsive website design",
       "E-commerce platforms",
-      "Web applications and portals",
+      "Applications and portals",
       "Content management systems",
       "SEO optimization",
       "Performance optimization",
     ],
-    stats: { projects: "100+", satisfaction: "97%" },
+    stats: { projects: "Comming Soon", satisfaction: "Comming Soon" },
     color: "from-green-500 to-emerald-500",
   },
 ]

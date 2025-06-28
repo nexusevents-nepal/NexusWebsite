@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { MapPin, Phone, Mail, Clock, Linkedin, Twitter, Instagram } from "lucide-react"
+import { MapPin, Phone, Mail, Clock, Linkedin, Facebook, Instagram } from "lucide-react"
 
 const contactInfo = [
   {
@@ -28,7 +28,7 @@ const contactInfo = [
 
 const socialLinks = [
   { icon: Linkedin, href: "https://www.linkedin.com/company/nexuseventsolutions", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Facebook, href: "#", label: "Facebook" },
   { icon: Instagram, href: "https://www.instagram.com/event.nexus/", label: "Instagram" },
 ]
 
