@@ -36,7 +36,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "69th Gaming Nepal",
+    title: "69th MLBB Thaha Cup LAN",
     category: "Production",
     description: "Complete handling of overall esports tournament and related services.",
     image: "/thahacup.jpg",
@@ -46,7 +46,7 @@ const projects = [
   {
     id: 4,
     title: "National Gold Cup – Free Fire LAN",
-    category: "Productions",
+    category: "Production",
     description: "LAN tournament production with multi-angle coverage and professional in-game broadcast.",
     image: "/national-gold-cup.jpg",
     tags: ["Corporate", "Conference", "Large Scale"],
@@ -55,7 +55,7 @@ const projects = [
   {
     id: 5,
     title: "Bagmati Esports Championship",
-    category: "event",
+    category: "events",
     description: "Regional championship managed with full team coordination.",
     image: "/bagmati-esports-championship-2.jpg",
     tags: ["Restaurant", "Booking", "Modern"],

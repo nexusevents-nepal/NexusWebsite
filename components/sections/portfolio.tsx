@@ -12,24 +12,24 @@ import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carouse
 const projects = [
   {
     title: "Gorkhali Cup",
-    category: "Production Partner",
+    category: "Production",
     description: "Nexus Event was proud to be a Production Partner for Gorkhali Cup, a FreeFire Esports tournament hosted by Tonde Nepal Esports, organisation under Tonde Gamer.",
     image: "/gorkhalicup_production.jpg",
     tags: ["Production", "Technology", "FreeFire"],
   },
   {
     title: "Bagmati Esports Championship",
-    category: "Management",
+    category: "Event",
     description: "Bagmati Esports Championship was a high scale Esports tournament organised by Esports Association of Nepal (ESAN) where Nexus Event was proudly the Event Management Team.",
     image: "/bagmati-esports-championship.jpeg",
     tags: ["Esports", "Management", "Bagmati"],
   },
   {
-    title: "E-commerce Platform",
-    category: "Web Development",
-    description: "Modern e-commerce solution with advanced features and seamless user experience.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["E-commerce", "React", "Modern"],
+    title: "National Gold Cup – Free Fire LAN",
+    category: "Production",
+    description: "LAN tournament production with multi-angle coverage and professional in-game broadcast.",
+    image: "/national-gold-cup.jpg",
+    tags: ["FreeFire", "Production", "Booyah"],
   },
 ]
 
