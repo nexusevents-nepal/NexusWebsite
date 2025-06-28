@@ -18,55 +18,46 @@ const categories = [
 const projects = [
   {
     id: 1,
-    title: "Tech Summit 2024",
+    title: "Cyber Utsav 2024 – Season 1",
     category: "events",
-    description: "A comprehensive technology summit featuring international speakers and cutting-edge innovations.",
-    image: "/placeholder.svg?height=400&width=600",
+    description: "Nepal’s emerging tech and digital culture event, focused on cybersecurity, innovation, and youth engagement.",
+    image: "/cyberutsav-2.jpg",
     tags: ["Corporate", "Technology", "International"],
     year: "2024",
   },
   {
     id: 2,
-    title: "Cultural Festival Live Stream",
+    title: "White Feather Arcadia",
     category: "Production",
-    description: "Multi-camera live streaming of Nepal's largest cultural festival, reaching 50K+ viewers.",
-    image: "/placeholder.svg?height=400&width=600",
+    description: "Complete production support for a premier corporate and cultural event experience.",
+    image: "/featherarcade.jpg",
     tags: ["Live Stream", "Cultural", "Multi-Camera"],
     year: "2024",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "69th Gaming Nepal",
     category: "Production",
-    description: "Modern e-commerce solution with advanced features and seamless user experience.",
-    image: "/placeholder.svg?height=400&width=600",
+    description: "Complete handling of overall esports tournament and related services.",
+    image: "/thahacup.jpg",
     tags: ["E-commerce", "React", "Modern"],
     year: "2024",
   },
   {
     id: 4,
-    title: "Corporate Conference",
-    category: "events",
-    description: "Annual corporate conference with 500+ attendees and international speakers.",
-    image: "/placeholder.svg?height=400&width=600",
+    title: "National Gold Cup – Free Fire LAN",
+    category: "Productions",
+    description: "LAN tournament production with multi-angle coverage and professional in-game broadcast.",
+    image: "/national-gold-cup.jpg",
     tags: ["Corporate", "Conference", "Large Scale"],
     year: "2023",
   },
   {
     id: 5,
-    title: "Sports Event Production",
-    category: "Production",
-    description: "Professional Production of national sports championship with multiple camera angles.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Sports", "Live", "Professional"],
-    year: "2023",
-  },
-  {
-    id: 6,
-    title: "Restaurant Website",
-    category: "Production",
-    description: "Beautiful restaurant website with online ordering and reservation system.",
-    image: "/placeholder.svg?height=400&width=600",
+    title: "Bagmati Esports Championship",
+    category: "event",
+    description: "Regional championship managed with full team coordination.",
+    image: "/bagmati-esports-championship-2.jpg",
     tags: ["Restaurant", "Booking", "Modern"],
     year: "2023",
   },
@@ -134,12 +125,12 @@ export function PortfolioGrid() {
                       </span>
                     </div>
 
-                    {/* Year */}
+                    {/* Year
                     <div className="absolute top-4 right-4">
                       <span className="px-2 py-1 text-xs font-medium bg-white/20 backdrop-blur-sm text-white rounded">
                         {project.year}
                       </span>
-                    </div>
+                    </div>*/}
 
                     {/* External link icon */}
                     <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -157,14 +148,14 @@ export function PortfolioGrid() {
 
                     <p className="text-muted-foreground mb-4 text-sm leading-relaxed">{project.description}</p>
 
-                    {/* Tags */}
+                    {/* Tags
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
                         <span key={tag} className="px-2 py-1 text-xs bg-muted rounded-md text-muted-foreground">
                           {tag}
                         </span>
                       ))}
-                    </div>
+                    </div>*/}
                   </div>
                 </div>
               </motion.div>

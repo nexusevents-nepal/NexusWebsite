@@ -35,12 +35,12 @@ const projects = [
 
 const brandLogos = [
   "/esan.png",
-  "/placeholder-logo.svg",
-  "/placeholder-logo.svg",
-  "/placeholder-logo.svg",
-  "/placeholder-logo.svg",
-  "/placeholder-logo.svg",
-  "/placeholder-logo.svg",
+  "/hetaudacitycollege.png",
+  "/texas.png",
+  "/globalnotes.png",
+  "/tekgurkha.png",
+  "/daruma.png",
+  "/wfa.png",
   "/placeholder-logo.svg",
   "/placeholder-logo.svg",
 ]
