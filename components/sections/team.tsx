@@ -14,7 +14,6 @@ const team = [
     name: "Sajwal Chaulagain",
     role: "CEO / Managing Director",
     image: "/sajwal.png",
-    bio: "Visionary leader with 10+ years in event management",
     social: {
       linkedin: "https://www.linkedin.com/in/desajwal/",
       facebook: "https://x.com/sajwal02",
@@ -25,7 +24,6 @@ const team = [
     name: "Suhas Belbas",
     role: "Founder / Chief Technical Director",
     image: "/suha.png",
-    bio: "Award-winning designer specializing in event experiences",
     social: { linkedin: "#", facebook: "#" },
     priority: "core",
   },
@@ -33,15 +31,13 @@ const team = [
     name: "Gyalchen Lama",
     role: "Indian Administrative Head",
     image: "/gyalchenlama.png",
-    bio: "Full-stack developer and Production technology expert",
     social: { linkedin: "#", facebook: "#" },
     priority: "core",
   },
   {
     name: "Mingsho Subba Limbu",
     role: "Co-founder / Advisor",
-    image: "/mhingso",
-    bio: "Experienced project manager ensuring seamless execution",
+    image: "/mhingso.png",
     social: { linkedin: "#", facebook: "#" },
     priority: "nexus",
   },
@@ -49,7 +45,6 @@ const team = [
     name: "Deepak Shah",
     role: "Co-Founder / Operational Lead",
     image: "/deepak.png",
-    bio: "Professional broadcaster with expertise in live streaming",
     social: { linkedin: "#", facebook: "#" },
     priority: "core",
   },
@@ -57,7 +52,6 @@ const team = [
     name: "Siddhanth Raj Pokarel",
     role: "Software Developer",
     image: "/siddhanth.png",
-    bio: "Full-stack Software developer specializing in event experiences",
     social: { linkedin: "#", facebook: "#" },
     priority: "nexus",
   },
@@ -65,7 +59,6 @@ const team = [
     name: "Sharad Bhandari",
     role: "Senior Web Developer",
     image: "/sharad.png",
-    bio: "Full-stack developer specializing in event experiences",
     social: { linkedin: "#", facebook: "#" },
     priority: "nexus",
   },
@@ -101,7 +94,7 @@ const MemberCard = ({ member, index }: { member: typeof team[number]; index: num
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </div>
 
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      {/*  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <a
             href={member.social.linkedin}
             className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors"
@@ -118,12 +111,12 @@ const MemberCard = ({ member, index }: { member: typeof team[number]; index: num
           >
             <Facebook className="h-4 w-4" />
           </a>
-        </div>
+        </div>*/}
       </div>
 
       <h3 className="text-xl font-space-grotesk font-bold mb-1">{member.name}</h3>
       <p className="text-primary font-medium mb-3">{member.role}</p>
-      <p className="text-sm text-muted-foreground">{member.bio}</p>
+      {/*<p className="text-sm text-muted-foreground">{member.bio}</p>*/}
     </motion.div>
   )
 }
