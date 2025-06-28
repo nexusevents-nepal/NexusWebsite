@@ -41,8 +41,6 @@ const brandLogos = [
   "/tekgurkha.png",
   "/daruma.png",
   "/wfa.png",
-  "/placeholder-logo.svg",
-  "/placeholder-logo.svg",
 ]
 
 export function Portfolio() {
