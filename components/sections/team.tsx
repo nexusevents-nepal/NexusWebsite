@@ -21,7 +21,7 @@ const team = [
     priority: "core",
   },
   {
-    name: "Suhas Belbas",
+    name: "Suhas Belbase",
     role: "Founder / Chief Technical Director",
     image: "/suha.png",
     social: { linkedin: "#", facebook: "#" },
@@ -39,7 +39,7 @@ const team = [
     role: "Co-founder / Advisor",
     image: "/mhingso.png",
     social: { linkedin: "#", facebook: "#" },
-    priority: "nexus",
+    priority: "core",
   },
   {
     name: "Deepak Shah",

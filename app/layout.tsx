@@ -19,7 +19,7 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "Nexus Event and IT Solutions | Premium Event Planning & Production Services",
   description:
-    "Leading event planning and IT solutions company in Nepal. 60+ successful events, 70+ Production projects, and cutting-edge web development services.",
+    "Leading event planning and IT solutions company in Nepal. 20+ successful events, 50+ Production projects, and cutting-edge web development services.",
   keywords: "event planning Nepal, Production services, web development, IT solutions, Makwanpur",
   authors: [{ name: "Nexus Event and IT Solutions" }],
   creator: "Nexus Event and IT Solutions",

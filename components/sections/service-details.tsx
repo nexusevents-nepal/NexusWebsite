@@ -20,7 +20,7 @@ const services = [
       "Venue selection and management",
       "Vendor coordination and logistics",
     ],
-    stats: { projects: "60+", satisfaction: "98%" },
+    stats: { projects: "20+", satisfaction: "98%" },
     color: "from-blue-500 to-cyan-500",
   },
   {
@@ -36,7 +36,7 @@ const services = [
       "Post-production and editing",
       "Equipment rental and technical support",
     ],
-    stats: { projects: "70+", satisfaction: "99%" },
+    stats: { projects: "50+", satisfaction: "99%" },
     color: "from-purple-500 to-pink-500",
   },
   {

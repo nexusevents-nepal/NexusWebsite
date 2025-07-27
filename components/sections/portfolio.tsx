@@ -11,13 +11,6 @@ import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carouse
 
 const projects = [
   {
-    title: "Gorkhali Cup",
-    category: "Production",
-    description: "Nexus Event was proud to be a Production Partner for Gorkhali Cup, a FreeFire Esports tournament hosted by Tonde Nepal Esports, organisation under Tonde Gamer.",
-    image: "/gorkhalicup_production.jpg",
-    tags: ["Production", "Technology", "FreeFire"],
-  },
-  {
     title: "Bagmati Esports Championship",
     category: "Event",
     description: "Bagmati Esports Championship was a high scale Esports tournament organised by Esports Association of Nepal (ESAN) where Nexus Event was proudly the Event Management Team.",
@@ -90,7 +83,7 @@ export function Portfolio() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.title}

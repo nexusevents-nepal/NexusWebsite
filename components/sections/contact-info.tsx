@@ -95,7 +95,7 @@ export function ContactInfo() {
          <iframe
             title="Google Map"
             className="w-full h-full border-0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.021255674299!2d-122.41941548468024!3d37.77492977975953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b3b0f0c3f%3A0x2d7c2b9c7e6ff39d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1718217600000!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3388.661522763675!2d85.07818660000001!3d27.4441714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb4979a8456d83%3A0x32f9c4a740cf3c7e!2sNexus%20Event%20And%20I.T.%20Solutions%20Pvt.%20Ltd.!5e1!3m2!1sen!2snp!4v1753637840338!5m2!1sen!2snp"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
