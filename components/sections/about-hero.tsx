@@ -27,7 +27,7 @@ export function AboutHero() {
             {
               icon: Users,
               title: "Our Team",
-              description: "6 dedicated professionals with diverse expertise",
+              description: "20 dedicated professionals with diverse expertise",
             },
             {
               icon: Target,

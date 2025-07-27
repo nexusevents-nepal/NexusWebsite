@@ -52,7 +52,7 @@ export function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-sm text-muted-foreground">
                   <MapPin className="h-4 w-4 mr-3 text-primary" />
-                  MakwanpurGadhi-05, Makwanpur, Nepal
+                  Hetauda, Makwanpurgadhi-05, Makawanpur, Nepal
                 </div>
                 <div className="flex items-center text-sm text-muted-foreground">
                   <Mail className="h-4 w-4 mr-3 text-primary" />

@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Our Location",
-    details: ["Makwanpurgadhi-05, Makawanpur, Nepal, 44100", "Central Development Region"],
+    details: ["Hetauda, Makwanpurgadhi-05, Makawanpur, Nepal, 44100", "Central Development Region"],
   },
   {
     icon: Phone,

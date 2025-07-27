@@ -6,7 +6,7 @@ import { ContactInfo } from "@/components/sections/contact-info"
 export const metadata: Metadata = {
   title: "Contact Us | Nexus Event and IT Solutions",
   description:
-    "Get in touch with Nexus Event and IT Solutions. Located in Makwanpur, Nepal. Ready to bring your vision to life.",
+    "Get in touch with Nexus Event and IT Solutions. Located in Hetauda, Makwanpurgadhi-05, Makawanpur, Nepal. Ready to bring your vision to life.",
 }
 
 export default function Contact() {

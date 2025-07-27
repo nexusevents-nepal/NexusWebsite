@@ -131,7 +131,7 @@ const TeamGrid = ({ members }: { members: typeof team }) => {
   return (
     <div
       ref={ref}
-      className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8"
+      className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8"
     >
       {members.map((member, index) => (
         <MemberCard key={member.name} member={member} index={index} />
@@ -144,8 +144,8 @@ const TeamGrid = ({ members }: { members: typeof team }) => {
 // Main Team Section
 // -------------------------
 export function Team() {
-  const coreTeam = team.filter((member) => member.priority === "core").slice(0, 4)
-  const nexusMembers = team.filter((member) => member.priority === "nexus").slice(0, 4)
+  const coreTeam = team.filter((member) => member.priority === "core").slice(0, 5)
+  const nexusMembers = team.filter((member) => member.priority === "nexus").slice(0, 3)
 
   return (
     <section className="section-padding py-20">
