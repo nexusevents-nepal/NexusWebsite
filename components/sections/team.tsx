@@ -12,7 +12,7 @@ import Image from "next/image"
 const team = [
   {
     name: "Sajwal Chaulagain",
-    role: "CEO / Managing Director",
+    role: "Founder / C.E.O",
     image: "/sajwal.png",
     social: {
       linkedin: "https://www.linkedin.com/in/desajwal/",
@@ -66,6 +66,14 @@ const team = [
     name: "Saphal Bartaula",
     role: "Marketing Lead",
     image: "/saphal.png",
+    bio: "Marketing strategist driving brand growth",
+    social: { linkedin: "#", facebook: "#" },
+    priority: "nexus",
+  },
+    {
+    name: "Ekraj Wasti",
+    role: "Marketing Strategist",
+    image: "/rochak.png",
     bio: "Marketing strategist driving brand growth",
     social: { linkedin: "#", facebook: "#" },
     priority: "nexus",
