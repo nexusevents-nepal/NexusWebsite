@@ -153,7 +153,7 @@ const TeamGrid = ({ members }: { members: typeof team }) => {
 // -------------------------
 export function Team() {
   const coreTeam = team.filter((member) => member.priority === "core").slice(0, 5)
-  const nexusMembers = team.filter((member) => member.priority === "nexus").slice(0, 3)
+  const nexusMembers = team.filter((member) => member.priority === "nexus").slice(0, 4)
 
   return (
     <section className="section-padding py-20">
