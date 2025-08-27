@@ -42,38 +42,16 @@ const team = [
     priority: "core",
   },
   {
-    name: "Deepak Shah",
-    role: "Co-Founder / Operational Lead",
-    image: "/deepak.png",
-    social: { linkedin: "#", facebook: "#" },
-    priority: "core",
-  },
-  {
-    name: "Siddhanth Raj Pokarel",
-    role: "Software Developer",
-    image: "/siddhanth.png",
-    social: { linkedin: "#", facebook: "#" },
-    priority: "nexus",
-  },
-  {
     name: "Sharad Bhandari",
-    role: "Senior Web Developer",
+    role: "Web Developer",
     image: "/sharad.png",
-    social: { linkedin: "#", facebook: "#" },
+    social: { linkedin: "https://www.linkedin.com/in/sharadb2/", facebook: "#" },
     priority: "nexus",
   },
   {
     name: "Saphal Bartaula",
     role: "Marketing Lead",
     image: "/saphal.png",
-    bio: "Marketing strategist driving brand growth",
-    social: { linkedin: "#", facebook: "#" },
-    priority: "nexus",
-  },
-    {
-    name: "Ekraj Wasti",
-    role: "Marketing Strategist",
-    image: "/rochak.png",
     bio: "Marketing strategist driving brand growth",
     social: { linkedin: "#", facebook: "#" },
     priority: "nexus",
@@ -132,14 +110,18 @@ const MemberCard = ({ member, index }: { member: typeof team[number]; index: num
 // -------------------------
 // Grid Wrapper (Responsive with 4 Columns)
 // -------------------------
-const TeamGrid = ({ members }: { members: typeof team }) => {
+const TeamGrid = ({ members, center = false }: { members: typeof team, center?: boolean }) => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
     <div
       ref={ref}
-      className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8"
+      className={`${
+        center
+          ? 'flex justify-center flex-wrap gap-8'
+          : 'grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8'
+      }`}
     >
       {members.map((member, index) => (
         <MemberCard key={member.name} member={member} index={index} />
@@ -148,12 +130,13 @@ const TeamGrid = ({ members }: { members: typeof team }) => {
   )
 }
 
+
 // -------------------------
 // Main Team Section
 // -------------------------
 export function Team() {
-  const coreTeam = team.filter((member) => member.priority === "core").slice(0, 5)
-  const nexusMembers = team.filter((member) => member.priority === "nexus").slice(0, 4)
+  const coreTeam = team.filter((member) => member.priority === "core").slice(0, 4)
+  const nexusMembers = team.filter((member) => member.priority === "nexus").slice(0, 2)
 
   return (
     <section className="section-padding py-20">
@@ -192,7 +175,7 @@ export function Team() {
           </p>
         </motion.div>
 
-        <TeamGrid members={nexusMembers} />
+        <TeamGrid members={nexusMembers} center/>
       </div>
     </section>
   )
