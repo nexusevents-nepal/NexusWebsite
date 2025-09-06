@@ -70,17 +70,20 @@ const MemberCard = ({ member, index }: { member: typeof team[number]; index: num
       className="group text-center"
     >
       <div className="relative mb-6">
-        <div className="relative w-48 h-48 mx-auto rounded-2xl overflow-hidden">
+        <div className="mx-auto w-32 sm:w-40 md:w-48 aspect-square rounded-2xl overflow-hidden relative">
           <Image
             src={member.image || "/placeholder.svg"}
             alt={member.name}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-110"
+            width={192}
+            height={192}
+            className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </div>
 
-      {/*  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        {/* Optional: Social Links on Hover */}
+        {/* 
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           <a
             href={member.social.linkedin}
             className="w-8 h-8 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center text-white hover:bg-white/30 transition-colors"
@@ -97,12 +100,14 @@ const MemberCard = ({ member, index }: { member: typeof team[number]; index: num
           >
             <Facebook className="h-4 w-4" />
           </a>
-        </div>*/}
+        </div> 
+        */}
       </div>
 
       <h3 className="text-xl font-space-grotesk font-bold mb-1">{member.name}</h3>
       <p className="text-primary font-medium mb-3">{member.role}</p>
-      {/*<p className="text-sm text-muted-foreground">{member.bio}</p>*/}
+      {/* Optional bio */}
+      {/* <p className="text-sm text-muted-foreground">{member.bio}</p> */}
     </motion.div>
   )
 }
@@ -129,7 +134,6 @@ const TeamGrid = ({ members, center = false }: { members: typeof team, center?: 
     </div>
   )
 }
-
 
 // -------------------------
 // Main Team Section
@@ -175,7 +179,7 @@ export function Team() {
           </p>
         </motion.div>
 
-        <TeamGrid members={nexusMembers} center/>
+        <TeamGrid members={nexusMembers} center />
       </div>
     </section>
   )
